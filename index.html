@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Warsztat1</title>
+</head>
+<body>
+  <header class="head">
+    <nav id="menu" class="container">
+      <div id="logo">SIT <span class="textcolor">ON</span> CHAIR</div>
+      <div id="navigation">
+        <ul>
+          <li class="dropdown">O FIRMIE
+            <div id="dropdown_list"></div>
+            <ul class="dropdown-content">
+              <li>Aktualności</li>
+              <li>Nasz team</li>
+              <li>Historia</li>
+            </ul>
+          </li>
+          <li> GALERIA</li>
+          <li>KONTAKT</li>
+        </ul>
+      <div>
+    </nav>
+  </header>
+  <section>
+    <div id="section1">
+    <span id="click-left" class="click" ><</span>
+      <div id="showreel">
+        <figure>
+          <img src="images/black_chair.png" class="visible">
+        </figure>
+        <div id="productinfo">
+          <h1 id="h140px">SIT <text class="textcolor">ON</text> OUR <text class="textcolor">CHAIR</text></h1>
+          <div id="productdescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim tincidunt consectetur. Nam sit amet lorem neque. Nulla suscipit est pellentesque accumsan vestibulum. Ut suscipit arcu velit. Nulla ac pellentesque risus, sed feugiat nibh. Aenean hendrerit imperdiet interdum. Donec vel lorem at arcu tincidunt feugiat vel.
+          </div>
+          <h3 id="button1">ZOBACZ WIĘCEJ</h3>
+        </div>
+      </div>
+      <span id="click-right" class="click">></span>
+    </div>
+  </section>
+  <section>
+    <div id="features" class="container">
+      <div id="feature1" class="gallery-box">
+        <div class="stripe">
+          <p class="boxheader">Chair CLAIR</p>
+        </div>
+      </div>
+      <div id="feature2" class="gallery-box">
+        <div class="stripe">
+          <p class="boxheader">Chair MARGARITA</p>
+        </div>
+      </div>
+      <div id="feature3" class="gallery-box">
+        <p class="boxheader">Finds all inputs</p>
+        <p id="boxdescription">Lorem ipsum dolor sit amet nunc. Donec congue. Proin cursus dignissim enim quis massa a erat. Sed dolor. Integer adipiscing aliquet commodo ligula, et libero.<br><br>Donec pharetra porttitor eros ipsum, tempor tincidunt et, pharetra eget, ultricies nec, posuere sit amet dolor.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="prices-background">
+      <div id="prices"  class="container">
+        <div class="section-title">CENNIK</div>
+        <div>
+          <div id="price-plan1" class="prices-plans left">
+            <div class="circle1">
+              <div class="circle2"></div>
+            </div>
+            <p class="price_name">BASIC PLAN</p>
+            <div class="price-value-background">
+              <div class="price-value">
+                <p class="value">85<sup class="sup">99</sup></p>
+                <p class="unit">PLN/MSC</p>
+              </div>
+            </div>
+            <div id="features1" class="features">
+              <p>Zakup towaru + dowóz</p>
+              <p>Serwis</p>
+            </div>
+            <p class="join-button">DOŁĄCZ</p>
+          </div>
+          <div id="price-plan2" class="prices-plans">
+            <div class="circle1">
+              <div class="circle2"></div>
+            </div>
+            <p class="price_name">STANDARD PLAN</p>
+            <div class="price-value-background">
+              <div class="price-value">
+                <p class="value">95<sup class="sup">99</sup></p>
+                <p class="unit">PLN/MSC</p>
+              </div>
+            </div>
+            <div id="features2" class="features">
+              <p>Zakup towaru + dowóz</p>
+              <p>Serwis</p>
+              <p>Gwarancja 5 lat</p>
+            </div>
+            <p class="join-button">DOŁĄCZ</p>
+          </div>
+          <div id="price-plan3" class="prices-plans right">
+            <div class="circle1">
+              <div class="circle2"></div>
+            </div>
+            <p class="price_name">ADVANCED PLAN</p>
+            <div class="price-value-background">
+              <div class="price-value">
+                <p class="value">211<sup class="sup">00</sup></p>
+                <p class="unit">PLN/MSC</p>
+              </div>
+            </div>
+            <div id="features3" class="features">
+              <p>Zakup towaru + dowóz</p>
+              <p>Serwis</p>
+              <p>Gwarancja 5 lat</p>
+              <p>Porady projektanta</p>
+            </div>
+            <p class="join-button">DOŁĄCZ</p>
+          </div>
+        </div>
+    </div>  
+  </section>
+  <section id="contact-form">
+    <div class="container">
+      <h2 class="section-title" id="contact-section-title">KONTAKT</h2>
+    </div>
+    <div class="container">
+      <form>
+        <div id="form-left">
+          <input type="text" name="firstname" placeholder="Imię" class="form-field" /><br>
+          <input type="text" name="email" placeholder="email" class="form-field"/><br>
+          <textarea name="message"  placeholder="Wiadomość" class="form-field" id="message-textarea"></textarea>
+        </div>
+        <div id="form-right-elements" class="position_right">
+          <img src="images/red_chair.png" id="contact-image" class="center">
+          <div>
+            <input type="checkbox" id="c1" name="cc"/>
+            <label for="c1"><span></span></label>
+            <span  id="agree">Zgadzam się na przetwarzanie danych osobowych</span>
+          </div>
+          <input class="submit-button" type="submit" id="submit-button" value="WYŚLIJ"/>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div id="footer-left" class="position_left">
+        <p>Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
+      </div>
+      <div id="footer-position" class="position_right">
+        <img src="images/flickr.png" id="flickr-icon" class="position_left">
+        <img src="images/vimeo.png" id="vimeo-icon" class="position_left">
+        <img src="images/pinterest.png" id="pinterest-icon" class="position_left">
+        <img src="images/twitter.png" id="twitter-icon" class="position_left">
+        <div id="footer-logo" class="position_left">
+          <p>SIT ON CHAIR</p>
+        <div>
+      </div>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
